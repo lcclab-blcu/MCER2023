@@ -142,3 +142,19 @@ uuid为当前数据在数据集中的id，text为原句内容，targets中，ind
 ## 6 奖项设置
 
 中文信息学会为本次评测获奖队伍提供的荣誉证书
+
+## 7 参考文献
+
+[1] Qi, Jialu, et al. "MCER: A Multi-domain Dataset for Sentence-Level Chinese Ellipsis Resolution." Natural Language Processing and Chinese Computing: 11th CCF International Conference, NLPCC 2022, Guilin, China, September 24–25 (2022)
+
+[2] Wang, S.: Study of ellipsis. studies of the Chinese Language (6), 409–415 (1985)
+
+[3] Merchant J.: Three types of ellipsis. Context-Depend. Perspect. Relat. **6** , 141–192 (2010)
+
+[4] McShane, M.J.: A Theory of Ellipsis. Oxford University Press on Demand (2005)
+
+[5] Rajpurkar, P., Zhang, J., Lopyrev, K., Liang, P.: Squad: 100,000+ questions for machine comprehension of text. arXiv preprint arXiv:1606.05250 (2016)
+
+[6] Lin, C.-Y.: Rouge: A package for automatic evaluation of summaries. Text summarization branches out. In: Text summarization branches out, pp. 74–81 (2004)
+
+[7] Aralikatte, R., Lamm, M., Hardt, D., et al.: Ellipsis resolution as question answering: An evaluation. arXiv preprint arXiv:1908.11141 (2019)

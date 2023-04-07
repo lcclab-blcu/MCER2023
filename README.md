@@ -83,7 +83,7 @@ uuid为当前数据在数据集中的id，text为原句内容，targets中，ind
 1. 子任务2内容为省略内容补全，参赛者提交的结果应为子任务1中预测出的省略位置和其对应的补全内容所组成的二元组。
 2. 针对子任务2，我们主要关注以下几个指标：ROUGE-1、ROUGE-2、ROUGE-L[6]、Exact-match-score以及F1-score。其中ROUGE-1 = 预测结果与正确答案重合的1-gram个数/正确答案的1-gram总数，ROUGE-2 = 预测结果与正确答案重合的2-gram个数/正确答案的2-gram总数，ROUGE-L = 最长公共子序列长度/正确答案的总长度，Exact-match-score = 与正确答案完全一致的预测结果个数/预测结果总数。
 3. 我们将针对以上效果指标对所有题目计算平均值，作为参赛者在子任务2上的最终指标结果。
-<img width="235" alt="image" src="https://user-images.githubusercontent.com/52641403/230570054-fd6e4b46-8d58-4287-a545-b44ca6259039.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/52641403/230570054-fd6e4b46-8d58-4287-a545-b44ca6259039.png">
 4. Baseline：针对子任务2，我们微调BERT，采用问答的方法（将数据转化为SQUAD[5]格式，如上图，从而将省略补全任务转化为问答的形式），给出如下baseline：
 
 
